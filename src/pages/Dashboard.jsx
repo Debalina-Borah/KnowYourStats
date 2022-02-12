@@ -7,15 +7,15 @@ import './css/Dashboard.css'
 function Dashboard() {
     return (
         <>
-            <div class="container">
-                <aside class="logo">
-                    <div class="top">
-                        <div class="logo">
+            <div className="container">
+                <aside className="logo">
+                    <div className="top">
+                        <div className="logo">
                             <img src="images/logo.png" alt="text" />
                             <h2>RMS</h2>
                         </div>
-                        <div class="close" id="close-btn">
-                            <span class="material-icons-sharp">close</span>
+                        <div className="close" id="close-btn">
+                            <span className="material-icons-sharp">close</span>
                         </div>
                     </div>
                     <SideNav />

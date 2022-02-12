@@ -1,15 +1,15 @@
 import React from 'react'
 import { Bar, Doughnut, Line, Radar } from 'react-chartjs-2';
-
-function Chart() {
+import Chart from 'chart.js/auto'
+function Charts() {
 
     return (
         <main>
             <h1>Dashboard</h1>
 
-            <div class="graphbox">
+            <div className="graphbox">
 
-                <div class="box">
+                <div className="box">
                     <Bar
                         options={{ responsive: true, }}
                         data={{
@@ -39,7 +39,7 @@ function Chart() {
                     />
                 </div>
 
-                <div class="box">
+                <div className="box">
                     <Doughnut data={{
                         labels: [
                             'Red',
@@ -62,9 +62,9 @@ function Chart() {
                 </div>
             </div>
 
-            <div class="graphbox">
+            <div className="graphbox">
 
-                <div class="box">
+                <div className="box">
                     <Line data={{
                         labels: ['1st', '2nd', '3rd', '4th', '5th', '6th',
                             '7th', '8th'
@@ -80,7 +80,7 @@ function Chart() {
                     }} />
                 </div>
 
-                <div class="box">
+                <div className="box">
                     <Radar data={{
                         labels: [
                             'MA101',
@@ -121,4 +121,4 @@ function Chart() {
     )
 }
 
-export default Chart
+export default Charts
