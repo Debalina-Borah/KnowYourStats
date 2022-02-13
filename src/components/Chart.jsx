@@ -1,6 +1,7 @@
 import React from 'react'
 import { Bar, Doughnut, Line, Radar } from 'react-chartjs-2';
 import Chart from 'chart.js/auto'
+
 function Charts() {
 
     return (
