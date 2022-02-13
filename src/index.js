@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Dashboard from './pages/Dashboard';
+// import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 
 ReactDOM.render(
