@@ -3,7 +3,7 @@ import './css/Login.css'
 
 function Login() {
     return (
-        <div className="loginPage-background">
+        <div className="loginPage-background login">
             <div className="contentWrapper">
                 <div className="leftcontentWrapper">
                     <img src="images/Asset 1.png" alt="bg" />
@@ -16,7 +16,7 @@ function Login() {
                         <i className="fas fa-lock"></i>
                         <input type="password" placeholder="Password" />
                         <div className="nestedFormDiv">
-                            <label for="rememberMe">Remember Me</label>
+                            <label htmlFor="rememberMe">Remember Me</label>
                             <input type="checkbox" name="rememberMe" id="rememberMe" />
                             <a href="forgot_password_link">Forgot password?</a>
                         </div>

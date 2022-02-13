@@ -3,7 +3,7 @@ import './css/SignIn.css'
 
 function SignIn() {
     return (
-        <div className="signInPage-background">
+        <div className="signInPage-background signIn">
             <div className="contentWrapper">
                 <div className="leftcontentWrapper">
                     <img src="images/Asset 2.png" alt="bg" />

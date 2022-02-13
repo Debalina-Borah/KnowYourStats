@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Coverpage() {
     return (
@@ -10,8 +11,8 @@ function Coverpage() {
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum consequuntur quaerat rerum quis odio, praesentium molestiae soluta incidunt, alias eius iure repellendus maxime.
                 </p>
-                <button> <a href="login.html"> Login </a> </button>
-                <h6>Don't have a account? <a href="signIn.html" style={{ color: "#E75C25", fontWeight: "600", fontSize: "1.125rem" }}>Sign Up for free!</a> </h6>
+                <button> <Link to='/login'> Login </Link> </button>
+                <h6>Don't have a account? <Link to='/signin' style={{ color: "#E75C25", fontWeight: "600", fontSize: "1.125rem" }}>Sign Up for free!</Link> </h6>
 
             </div>
             <div className="imageWrapper">
