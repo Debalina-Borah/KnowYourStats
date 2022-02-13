@@ -3,19 +3,19 @@ import './css/Login.css'
 
 function Login() {
     return (
-        <div class="loginPage-background">
-            <div class="contentWrapper">
-                <div class="leftcontentWrapper">
+        <div className="loginPage-background">
+            <div className="contentWrapper">
+                <div className="leftcontentWrapper">
                     <img src="images/Asset 1.png" alt="bg" />
                 </div>
-                <div class="rightcontentWrapper">
+                <div className="rightcontentWrapper">
                     <h1>USER LOGIN</h1>
                     <form action="">
-                        <i class="fas fa-user"></i>
+                        <i className="fas fa-user"></i>
                         <input type="text" placeholder="Username" />
-                        <i class="fas fa-lock"></i>
+                        <i className="fas fa-lock"></i>
                         <input type="password" placeholder="Password" />
-                        <div class="nestedFormDiv">
+                        <div className="nestedFormDiv">
                             <label for="rememberMe">Remember Me</label>
                             <input type="checkbox" name="rememberMe" id="rememberMe" />
                             <a href="forgot_password_link">Forgot password?</a>

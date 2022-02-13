@@ -2,8 +2,8 @@ import React from 'react'
 
 function Coverpage() {
     return (
-        <div class="coverPage">
-            <div class="contentWrapper">
+        <div className="coverPage">
+            <div className="contentWrapper">
                 <h1>
                     Lorem Ipsum
                 </h1>
@@ -14,15 +14,15 @@ function Coverpage() {
                 <h6>Don't have a account? <a href="signIn.html" style={{ color: "#E75C25", fontWeight: "600", fontSize: "1.125rem" }}>Sign Up for free!</a> </h6>
 
             </div>
-            <div class="imageWrapper">
+            <div className="imageWrapper">
                 <img src="images/marks analysis.png" alt="coverPageImage" />
             </div>
 
-            <div class="box1">
+            <div className="box1">
                 <h1>hello</h1>
 
             </div>
-            <div class="box2">
+            <div className="box2">
 
             </div>
         </div>

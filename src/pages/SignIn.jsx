@@ -3,23 +3,23 @@ import './css/SignIn.css'
 
 function SignIn() {
     return (
-        <div class="signInPage-background">
-            <div class="contentWrapper">
-                <div class="leftcontentWrapper">
+        <div className="signInPage-background">
+            <div className="contentWrapper">
+                <div className="leftcontentWrapper">
                     <img src="images/Asset 2.png" alt="bg" />
                 </div>
-                <div class="rightcontentWrapper">
+                <div className="rightcontentWrapper">
                     <h1>USER SIGN-IN</h1>
-                    <div class="Signthrough">
-                        <button class="google"><i class="fab fa-google"></i> Sign In </button>
+                    <div className="Signthrough">
+                        <button className="google"><i className="fab fa-google"></i> Sign In </button>
                     </div>
-                    <p class="or">OR</p>
+                    <p className="or">OR</p>
                     <form action="">
-                        <i class="fas fa-user"></i>
+                        <i className="fas fa-user"></i>
                         <input type="text" placeholder="Username" />
-                        <i class="fas fa-envelope"></i>
+                        <i className="fas fa-envelope"></i>
                         <input type="email" placeholder="Email" name="email" id="email" />
-                        <i class="fas fa-lock"></i>
+                        <i className="fas fa-lock"></i>
                         <input id="password" type="password" placeholder="Password" />
                         <input id="submit" style={{ backgroundImage: "linear-gradient(90deg,#E75C25,#F27C28)" }} type="submit"
                             placeholder="login" />
