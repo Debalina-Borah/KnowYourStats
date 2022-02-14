@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { useUserAuth } from '../context/UserAuthContext';
-import './css/SignIn.css'
+// import './css/SignIn.css'
 
 function SignIn() {
     const usernameRef = useRef();
@@ -19,12 +19,12 @@ function SignIn() {
 
     }
     return (
-        <div className="signInPage-background signIn">
-            <div className="contentWrapper">
-                <div className="leftcontentWrapper">
+        <div className="signInPage-background">
+            <div className="contentWrapper-s">
+                <div className="leftcontentWrapper-s">
                     <img src="images/Asset 2.png" alt="bg" />
                 </div>
-                <div className="rightcontentWrapper">
+                <div className="rightcontentWrapper-s">
                     <h1>USER SIGN-IN</h1>
                     <div className="Signthrough">
                         <button className="google"><i className="fab fa-google"></i> Sign In </button>

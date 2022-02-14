@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { useUserAuth } from '../context/UserAuthContext'
-import './css/Login.css'
+// import './css/Login.css'
 
 function Login() {
 
@@ -19,12 +19,12 @@ function Login() {
 
     }
     return (
-        <div className="loginPage-background login">
-            <div className="contentWrapper">
-                <div className="leftcontentWrapper">
+        <div className="loginPage-background">
+            <div className="contentWrapper-l">
+                <div className="leftcontentWrapper-l">
                     <img src="images/Asset 1.png" alt="bg" />
                 </div>
-                <div className="rightcontentWrapper">
+                <div className="rightcontentWrapper-l">
                     <h1>USER LOGIN</h1>
                     <form action="">
                         <i className="fas fa-user"></i>
