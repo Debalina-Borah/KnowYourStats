@@ -4,6 +4,7 @@ import Login from './pages/Login'
 import SignIn from './pages/SignIn'
 import './App.css';
 import { UserAuthContextProvider } from './context/UserAuthContext';
+import Dashboard from './pages/Dashboard';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route exact path='/login' element={<Login />} />
           <Route exact path='/signin' element={<SignIn />} />
+          <Route exact path='/dashboard' element={<Dashboard />} />
         </Routes>
       </UserAuthContextProvider>
     </BrowserRouter>
